@@ -1,0 +1,48 @@
+{
+  "name": "probot-netsells",
+  "version": "1.0.0",
+  "description": "Netsells Probot",
+  "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
+  "license": "ISC",
+  "repository": "https://github.com//probot-netsells.git",
+  "homepage": "https://github.com//probot-netsells",
+  "bugs": "https://github.com//probot-netsells/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run"
+  },
+  "dependencies": {
+    "probot": "^7.2.0",
+    "netsells-probot-pr-title-check": "netsells/probot-pr-title-check",
+    "netsells-probot-merge-conflicts-check": "netsells/probot-merge-conflicts-check"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2"
+  },
+  "probot": {
+    "apps": [
+      "netsells-probot-pr-title-check",
+      "netsells-probot-merge-conflicts-check"
+    ]
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
