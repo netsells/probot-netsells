@@ -3252,7 +3252,7 @@ negotiator@0.6.1:
 
 netsells-probot-merge-conflicts-check@netsells/probot-merge-conflicts-check:
   version "1.0.0"
-  resolved "git+ssh://git@github.com/netsells/probot-merge-conflicts-check.git#f5e47207434064e1d93a95d0c4c96d7e8d144b3a"
+  resolved "https://codeload.github.com/netsells/probot-merge-conflicts-check/tar.gz/31663d85b9aa17c7731ef76b331fad57c4a80ecf"
   dependencies:
     probot "^7.2.0"
 

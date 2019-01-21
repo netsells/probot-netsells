@@ -16,9 +16,9 @@
     "start": "probot run"
   },
   "dependencies": {
-    "probot": "^7.2.0",
+    "netsells-probot-merge-conflicts-check": "netsells/probot-merge-conflicts-check",
     "netsells-probot-pr-title-check": "netsells/probot-pr-title-check",
-    "netsells-probot-merge-conflicts-check": "netsells/probot-merge-conflicts-check"
+    "probot": "^7.2.0"
   },
   "devDependencies": {
     "jest": "^22.4.3",
