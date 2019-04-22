@@ -16,9 +16,9 @@
     "start": "probot run"
   },
   "dependencies": {
+    "netsells-probot-jira-badges": "netsells/probot-jira-badges",
     "netsells-probot-merge-conflicts-check": "netsells/probot-merge-conflicts-check",
     "netsells-probot-pr-title-check": "netsells/probot-pr-title-check",
-    "netsells-probot-jira-badges": "netsells/probot-jira-badges",
     "probot": "^7.2.0"
   },
   "devDependencies": {
