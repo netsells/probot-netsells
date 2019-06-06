@@ -3267,7 +3267,8 @@ negotiator@0.6.1:
 
 netsells-probot-jira-badges@netsells/probot-jira-badges:
   version "1.0.0"
-  resolved "https://codeload.github.com/netsells/probot-jira-badges/tar.gz/633db3f10268804edd23bca565b74051c3ecb5c3"
+  uid "41391917aae6b0d6bd9c4cad772d8af8eeffc18e"
+  resolved "https://codeload.github.com/netsells/probot-jira-badges/tar.gz/41391917aae6b0d6bd9c4cad772d8af8eeffc18e"
   dependencies:
     axios "^0.18.0"
     probot "^7.2.0"
