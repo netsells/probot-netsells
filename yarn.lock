@@ -18,6 +18,28 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@netsells/probot-jira-badges@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@netsells/probot-jira-badges/-/probot-jira-badges-1.0.0.tgz#27d00acdfadd4455cab2be2f022d72269c1b5104"
+  integrity sha512-NQRfQsy3/t0M9tHIPwofy1NrXgwAk3usZhj7tyqiNHN/hy5OOGgapVl9OEvBfEefA5KFVmzFE6zgr3PP5nIaCw==
+  dependencies:
+    axios "^0.19.0"
+    probot "^7.2.0"
+
+"@netsells/probot-merge-conflicts-check@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@netsells/probot-merge-conflicts-check/-/probot-merge-conflicts-check-1.0.0.tgz#7c340279877387aca3beb95f405aebead7a8a103"
+  integrity sha512-y2WZZMHLQL+4X9ujAdNrcB9uIDCx3SQPxzKpDckdTwjyzlPlHTx8F3oxIl936EopoBySx9Ks7+DeiTtj0pRZqA==
+  dependencies:
+    probot "^7.2.0"
+
+"@netsells/probot-pr-title-check@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@netsells/probot-pr-title-check/-/probot-pr-title-check-1.0.0.tgz#d825cfdc91e3087e214cf5613e0746b55c78d3b2"
+  integrity sha512-XWSks+82meNKWp/51lwT+zlvg6wOIAOK5+V7DpquytgrbCbY7G71Vrx4Hiim2wGtEDa04d7Lw7weMjghl+Zk1Q==
+  dependencies:
+    probot "^7.2.0"
+
 "@octokit/rest@^15.18.0":
   version "15.18.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-15.18.1.tgz#ec7fb0f8775ef64dc095fae6635411d3fbff9b62"
@@ -3269,25 +3291,6 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
-
-netsells-probot-jira-badges@netsells/probot-jira-badges:
-  version "1.0.0"
-  resolved "https://codeload.github.com/netsells/probot-jira-badges/tar.gz/5ffca1d51a6c075d7ed0e5332b553c2d89456f52"
-  dependencies:
-    axios "^0.19.0"
-    probot "^7.2.0"
-
-netsells-probot-merge-conflicts-check@netsells/probot-merge-conflicts-check:
-  version "1.0.0"
-  resolved "https://codeload.github.com/netsells/probot-merge-conflicts-check/tar.gz/06d46a0d03a8e2bc7e35e6cbafd1ff3af118677e"
-  dependencies:
-    probot "^7.2.0"
-
-netsells-probot-pr-title-check@netsells/probot-pr-title-check:
-  version "1.0.0"
-  resolved "https://codeload.github.com/netsells/probot-pr-title-check/tar.gz/7c9fd375b43d8ba801837a960f65d392a66684a8"
-  dependencies:
-    probot "^7.2.0"
 
 nice-try@^1.0.4:
   version "1.0.5"

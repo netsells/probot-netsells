@@ -16,9 +16,9 @@
     "start": "probot run"
   },
   "dependencies": {
-    "netsells-probot-jira-badges": "netsells/probot-jira-badges",
-    "netsells-probot-merge-conflicts-check": "netsells/probot-merge-conflicts-check",
-    "netsells-probot-pr-title-check": "netsells/probot-pr-title-check",
+    "@netsells/probot-jira-badges": "^1.0.0",
+    "@netsells/probot-merge-conflicts-check": "^1.0.0",
+    "@netsells/probot-pr-title-check": "^1.0.0",
     "probot": "^7.2.0"
   },
   "devDependencies": {
@@ -29,9 +29,9 @@
   },
   "probot": {
     "apps": [
-      "netsells-probot-pr-title-check",
-      "netsells-probot-merge-conflicts-check",
-      "netsells-probot-jira-badges"
+      "@netsells/probot-pr-title-check",
+      "@netsells/probot-merge-conflicts-check",
+      "@netsells/probot-jira-badges"
     ]
   },
   "engines": {
